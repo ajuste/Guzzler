@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guzzler</string>
+    <string name="character_edit_hint_name">Name</string>
+    <string name="character_edit_label_title">Select your guzzler</string>
+    <string name="general_img_content_description">Character</string>
+    <string name="screen_interation_cnt_desc_energy">Energy</string>
+    <string name="screen_interation_toast_energy">Energy level %1$d</string>
+    <string name="screen_interation_toast_fun">Fun level %1$d</string>
+    <string name="screen_interation_toast_health">Health level %1$d</string>
+    <string name="screen_interation_toast_food">Food level %1$d</string>
+    <string name="model_character_tempalte_name_pug">Pug</string>
+    <string name="model_character_tempalte_name_pig">Pig</string>
+    <string name="global_db_name">guzzler-db</string>
+    <string name="global_db_version">1</string>
+    <string name="global_db_recreate">0</string>
+</resources>

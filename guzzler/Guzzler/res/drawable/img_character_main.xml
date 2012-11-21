@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itemCharacterMain" android:drawable="@drawable/img_null" />
+    <item android:id="@+id/itemCharacterMainFlotable" android:drawable="@drawable/img_null" />
+</layer-list>

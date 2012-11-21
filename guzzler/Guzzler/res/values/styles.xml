@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Counter">
+        <!-- 3dp so the background border to be visible -->
+        <item name="android:padding">3dp</item>
+        <item name="android:background">@drawable/bar_counter_level</item>
+        <item name="android:scaleType">center</item>
+    </style>
+</resources>

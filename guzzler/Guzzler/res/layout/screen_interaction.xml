@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/characterMainLayout"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="center_horizontal">
+    <!--    Top panel   -->
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:contentDescription="@string/screen_interation_cnt_desc_energy"
+            android:layout_width="28dp" 
+            android:layout_height="32dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/energy_12"
+            android:id="@+id/characterMainEnergyLevel"
+            android:layout_gravity="center"
+            style="@style/Counter" />
+        <ImageView
+            android:contentDescription="@string/screen_interation_cnt_desc_energy"
+            android:layout_width="28dp" 
+            android:layout_height="32dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/health_12"
+            android:id="@+id/characterMainHealthLevel"        
+            android:layout_gravity="center"
+            style="@style/Counter" />
+        <ImageView
+            android:contentDescription="@string/screen_interation_cnt_desc_energy"
+            android:layout_width="28dp" 
+            android:layout_height="32dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/food_12"
+            android:id="@+id/characterMainFoodLevel"        
+            android:layout_gravity="center"
+            style="@style/Counter" />
+        <ImageView
+            android:contentDescription="@string/screen_interation_cnt_desc_energy"
+            android:layout_width="28dp" 
+            android:layout_height="32dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/fun_12"
+            android:id="@+id/characterMainFunLevel"        
+            android:layout_gravity="center"
+            style="@style/Counter" />
+    </LinearLayout>    
+    <LinearLayout 
+        android:id="@+id/characterMain"
+        android:orientation="vertical"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center" />
+    
+    <!--ImageView
+        android:id="@+id/characterMain"
+        android:contentDescription="@string/screen_interation_cnt_desc_energy"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:scaleType="center" 
+        android:src="@drawable/img_character_main"
+        android:background="@drawable/panel_background"
+        android:layout_weight="1" /-->
+    <!--    Bottom panel    -->
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/panel_background"
+        android:gravity="center_horizontal" />
+</LinearLayout>
